@@ -5,6 +5,12 @@
 
 **Suggested Tools**: Microsoft Sentinel, Azure Monitor, Azure AD Sign-in Logs, Azure AD Workbooks
 
+# Table of Contents
+- [Scenario](#scenario)
+- [Initial Access](#initial-access)
+- [Persistence](#persistence)
+- [Privilege Escalation](#privilege-escalation)
+
 # Scenario
 
 Theme: Reconstruct a Microsoft Entra ID privilege escalation chain by correlating Exchange message traces, Azure AD telemetry, and unified audit logs using KQL.
@@ -73,7 +79,7 @@ Usage
 
 ![image.png](image%204.png)
 
-## Side Note: Classic Guest Invite Abuse attack #authentication
+## Side Note: Classic Guest Invite Abuse attack
 
 **Guest UPN Breakdown:**
 
