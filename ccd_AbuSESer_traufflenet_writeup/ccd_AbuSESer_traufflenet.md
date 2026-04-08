@@ -4,6 +4,19 @@ CCD Lab link: [https://cyberdefenders.org/blueteam-ctf-challenges/abuseser-truff
 
 ![image.png](image.png)
 
+# Table of Contents
+- [Scenario](#scenario)
+- [Reconnaissance](#reconnaissance)
+- [Initial Access](#initial-access)
+- [Discovery](#discovery)
+- [Privilege Escalation](#privilege-escalation)
+- [Discovery](#discovery-1)
+- [Credential Access](#credential-access)
+- [Lateral Movement](#lateral-movement)
+- [Credential Access](#credential-access-1)
+- [Discovery](#discovery-2)
+- [Impact](#impact)
+
 # Scenario
 
 On January 23, 2026, Maromalix's finance department received an alarming call from TechCorp Industries, a long-standing client. TechCorp's accounts payable team reported they had processed a wire transfer to what they believed was Maromalix's bank account after receiving an invoice for services rendered. However, Maromalix had not issued any such invoice to TechCorp.
