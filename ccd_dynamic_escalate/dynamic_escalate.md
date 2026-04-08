@@ -1,4 +1,4 @@
-[DynamicEscalate Lab 33be74c00d7f80dbafe1fa015b9a7554.md](https://github.com/user-attachments/files/26548108/DynamicEscalate.Lab.33be74c00d7f80dbafe1fa015b9a7554.md)
+
 # DynamicEscalate Lab
 
 **CCD Lab Link**: [https://cyberdefenders.org/blueteam-ctf-challenges/dynamicescalate/](https://cyberdefenders.org/blueteam-ctf-challenges/dynamicescalate/)
