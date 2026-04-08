@@ -2,7 +2,22 @@
 
 # Introduction
 
-[Nitrogen | Blue team challenge.](https://cyberdefenders.org/blueteam-ctf-challenges/nitrogen/)
+CCD Lab Link: [Nitrogen | Blue team challenge.](https://cyberdefenders.org/blueteam-ctf-challenges/nitrogen/)
+
+# Table of Contents
+- [Scenario](#scenario)
+- [Introduction](#introduction)
+- [Initial Access](#initial-access)
+- [Execution](#execution)
+- [Command and Control](#command-and-control)
+- [Persistence](#persistence)
+- [Reconnaissance](#reconnaissance)
+- [Credential Access](#credential-access)
+- [Lateral Movement](#lateral-movement)
+- [Exfiltration](#exfiltration)
+- [Impact](#impact)
+
+# Scenario
 
 On September 10, 2025, trustwave.lab’s SOC team identified suspicious activity originating from a user workstation. The investigation revealed that the compromise began when the user searched online for legitimate software and clicked on an advertised website appearing in the first search results. Unbeknownst to the user, this site hosted a malicious download, which they executed with a single click, initiating a chain of malicious activity across the environment.
 
@@ -24,7 +39,7 @@ Your task is to perform a full incident investigation using Splunk telemetry, pr
 4. On the FILES host attacker downloaded the zipped file `c:\\Windows\\ADFS\\py\\python.zip`. This wasn't detected in browser logs so it must have been done via other means like local file transfer. Done using `curl`.
 5. Attacker then extracted these files from the `python.zip` archive in the same staging directory, also detected using `MFTECmd` : `worksliv.exe`,`wof15.exe`, and `wmisock.exe`.
 
-# Command & Control
+# Command and Control
 
 1. Shortly after the staged script ran, the host PC01 made an outbound connection to the attacker’s C2. The destination IP address and port used for that first C2 communication is `10.10.5.219:1337`. The process that originated the outbound C2 request is `C:\\Windows\\System32\\rundll32.exe`.
 2. After the initial C2 connection, the attacker deployed additional beacons. The ports used by the newly executed files to connect to the attacker’s server are `8844` and `8855`.
