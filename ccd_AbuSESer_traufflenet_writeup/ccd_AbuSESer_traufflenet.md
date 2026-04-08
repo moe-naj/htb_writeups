@@ -158,7 +158,7 @@ Q7- When assuming the new role, the attacker specified a custom session name to 
 
 **Answer: `DevOpsing_maromalix`**
 
-- This appears in the same fields output in question #7.
+- This appears in the same fields output in question #6.
 
 ![Custom session name = `assumedRoleId`](image%206.png)
 
