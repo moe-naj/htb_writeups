@@ -1,12 +1,9 @@
 # Nitrogen
 
-# Introduction
-
 CCD Lab Link: [Nitrogen | Blue team challenge.](https://cyberdefenders.org/blueteam-ctf-challenges/nitrogen/)
 
 # Table of Contents
 - [Scenario](#scenario)
-- [Introduction](#introduction)
 - [Initial Access](#initial-access)
 - [Execution](#execution)
 - [Command and Control](#command-and-control)
