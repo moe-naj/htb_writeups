@@ -2,6 +2,10 @@
 
 ![image.png](image.png)
 
+- [Context](#context)
+- [Scenario](#scenario)
+- [Questions](#questions)
+
 # Context
 
 **Lab Link**: [https://cyberdefenders.org/blueteam-ctf-challenges/lummastealer-angry-likho/](https://cyberdefenders.org/blueteam-ctf-challenges/lummastealer-angry-likho/)
