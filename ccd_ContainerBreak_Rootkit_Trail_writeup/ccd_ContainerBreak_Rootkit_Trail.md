@@ -2,6 +2,13 @@
 
 ![image.png](image.png)
 
+# Table of Contents
+
+- [Context](#context)
+- [Scenario](#scenario)
+- [Discovery](#discovery)
+- [Persistence](#persistence)
+
 # Context
 
 **Lab Link**: [https://cyberdefenders.org/blueteam-ctf-challenges/containerbreak-rootkit-trail/](https://cyberdefenders.org/blueteam-ctf-challenges/containerbreak-rootkit-trail/)
