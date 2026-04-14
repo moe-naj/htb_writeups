@@ -2,6 +2,20 @@
 
 ![image.png](image.png)
 
+# Table of Contents
+
+- [Context](#context)
+- [Scenario](#scenario)
+- [Initial Access and Reconnaissance](#initial-access-and-reconnaissance)
+- [Execution](#execution)
+- [Discovery](#discovery)
+- [Credential Access](#credential-access)
+- [Lateral Movement](#lateral-movement)
+- [Privilege Escalation](#privilege-escalation)
+- [Defense Evasion - Container Escape](#defense-evasion---container-escape)
+- [Persistence and Impact](#persistence-and-impact)
+- [Defense Evasion - Anti-Forensics](#defense-evasion---anti-forensics)
+
 # Context
 
 **Lab link**: [https://cyberdefenders.org/blueteam-ctf-challenges/redishell-kinsing/](https://cyberdefenders.org/blueteam-ctf-challenges/redishell-kinsing/)
@@ -14,7 +28,7 @@
 
 Before the ransomware deployment, the attackers established initial access through a misconfigured CI/CD server running in a Docker container within Wowza's development network. Security monitoring detected unusual outbound connections from the container subnet to a suspicious external IP address. A packet capture was initiated automatically but was terminated when the attacker discovered and killed the monitoring process. Your task is to analyze this network traffic to understand how the attackers gained their initial foothold and moved laterally within the containerized environment.
 
-# Initial Access & Reconnaissance
+# Initial Access and Reconnaissance
 
 Q1- Security monitoring flagged suspicious HTTP traffic targeting the container subnet. Identifying the first system that received malicious requests is essential for establishing the initial point of compromise. What is the IP address of the first compromised system?
 
@@ -180,7 +194,7 @@ Q19- What CVE number is associated with the container escape vulnerability?
 
 **Explanation**: **CVE-2022-0492** (nicknamed "Carpediem") is a critical privilege escalation vulnerability in the Linux kernel's `cgroup` v1 subsystem that allows attackers to escape Docker or Kubernetes containers and gain `root` access on the host without requiring specific authorization capabilities like `CAP_SYS_ADMIN`.  First disclosed in February 2022, this flaw exploits the `release_agent` mechanism, enabling a container user to execute arbitrary binaries on the host by manipulating the `notify_on_release` and `release_agent` files within the `cgroup` hierarchy. 
 
-# Persistence & Impact
+# Persistence and Impact
 
 Q20- After successfully escaping to the host system, the attacker created a file to document their access. What is the full path of the proof-of-compromise file created by the attacker on the host system?
 
