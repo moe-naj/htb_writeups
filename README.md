@@ -1,9 +1,9 @@
 # 🛡️ Cyber Labs Writeups
 
-A curated collection of technical walkthroughs, investigation reports, and security research documenting my journey through complex cyber lab environments.
-
 > [!IMPORTANT]
 > All content is shared in accordance with platform "Writeup Policies." No solutions for active, non-retired machines are included. Use of this information is strictly for **educational and ethical security purposes.**
+
+A curated collection of technical walkthroughs, investigation reports, and security research documenting my journey through complex cyber lab environments.
 
 ---
 
