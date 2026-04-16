@@ -2,6 +2,20 @@
 
 ![image.png](image.png)
 
+# Table of Contents
+
+- [Context](#context)
+- [Scenario](#scenario)
+- [Initial Access](#initial-access)
+- [Execution](#execution)
+- [Persistence](#persistence)
+- [Defense Evasion](#defense-evasion)
+- [Discovery](#discovery)
+- [Credential Access](#credential-access)
+- [Collection](#collection)
+  * [Named Pipes](#named-pipes)
+- [Command and Control](#command-and-control)
+
 # Context
 
 **Lab link**: [https://cyberdefenders.org/blueteam-ctf-challenges/maranhao/](https://cyberdefenders.org/blueteam-ctf-challenges/maranhao/)
