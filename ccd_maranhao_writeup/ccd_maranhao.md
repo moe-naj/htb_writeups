@@ -247,7 +247,7 @@ PipeName: \ChromeDecryptIPC_e7e223c5-50d5-40ae-8513-64c9962789c2
 
 ## Named Pipes
 
-Named pipes exist on both platforms but with differences. #named-pipes
+Named pipes exist on both platforms but with differences.
 
 **What they are:** A named pipe is a kernel-managed communication channel with a human-readable name that processes can reference to send and receive data. It behaves like a file you read/write to, but data flows between processes rather than to disk.
 
