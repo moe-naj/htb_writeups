@@ -2,6 +2,13 @@
 
 ![image.png](image.png)
 
+# Table of Contents
+
+- [Context](#context)
+- [Scenario](#scenario)
+- [Questions](#questions)
+  * [MemprocFS NTFS Timeline Flag Breakdown](#memprocfs-ntfs-timeline-flag-breakdown)
+
 # Context
 
 **Lab link**: [https://cyberdefenders.org/blueteam-ctf-challenges/icedid-2-gold-cabin/](https://cyberdefenders.org/blueteam-ctf-challenges/icedid-2-gold-cabin/)
