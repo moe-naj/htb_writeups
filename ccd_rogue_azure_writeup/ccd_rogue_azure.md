@@ -2,6 +2,16 @@
 
 ![image.png](image.png)
 
+# Table of Contents
+
+- [Context](#context)
+- [Scenario](#scenario)
+- [Initial Access](#initial-access)
+- [Command and Control](#command-and-control)
+- [Persistence](#persistence)
+- [Privilege Escalation](#privilege-escalation)
+- [Collection and Exfiltration](#collection-and-exfiltration)
+
 # Context
 
 **Lab link**: [https://cyberdefenders.org/blueteam-ctf-challenges/rogue-azure/](https://cyberdefenders.org/blueteam-ctf-challenges/rogue-azure/)
