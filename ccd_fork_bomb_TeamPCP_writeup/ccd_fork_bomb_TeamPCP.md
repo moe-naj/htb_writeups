@@ -2,6 +2,11 @@
 
 ![image.png](image.png)
 
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Questions](#questions)
+
 # Context
 
 **Lab link**: [https://cyberdefenders.org/blueteam-ctf-challenges/fork-bomb-teampcp/](https://cyberdefenders.org/blueteam-ctf-challenges/fork-bomb-teampcp/)
@@ -80,7 +85,7 @@ Q4- During the package installation, a file with an unusual extension was writte
 <SNIP>
 ```
 
-## **Python Site-Packages Persistence via PTH File Injection #python**
+## **Python Site-Packages Persistence via PTH File Injection**
 
 When a `.pth` file is dropped into the site-packages directory, Python processes every line in it when the interpreter starts. If a line begins with `import`, Python executes it. This means arbitrary code can run every time Python is invoked on the system, by any user or process using that interpreter. Site-packages is the directory where Python stores all third-party/external packages. Anything installed via `pip install` lands here. It's separate from Python's own standard library.
 
