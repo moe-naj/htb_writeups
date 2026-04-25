@@ -1,5 +1,21 @@
 # ConsentStorm Lab
 
+# Table of Contents
+
+- [Context](#context)
+- [Scenario](#scenario)
+- [Initial Access](#initial-access)
+- [Discovery](#discovery)
+- [Credential Access](#credential-access)
+- [Persistence](#persistence)
+- [Privilege Escalation](#privilege-escalation)
+- [Lateral Movement](#lateral-movement)
+- [Collection and Exfiltration](#collection-and-exfiltration)
+- [Attribution and MITRE Mapping](#attribution-and-mitre-mapping)
+- [Detection Engineering](#detection-engineering)
+- [Mitigation and Prevention](#mitigation-and-prevention)
+- [Timeline](#timeline)
+
 # Context
 
 **Lab link**: [https://cyberdefenders.org/blueteam-ctf-challenges/consentstorm/](https://cyberdefenders.org/blueteam-ctf-challenges/consentstorm/)
@@ -346,3 +362,7 @@ Q25- What is the maximum validity period (in hours) for a Temporary Access Pass 
 **Answer**: 8
 
 **Explanation**: The default maximum lifetime is often configured to 8 hours, administrators can adjust the policy to allow a maximum of 43,200 minutes.
+
+# Timeline
+
+![timeline.png](Timeline.png)
