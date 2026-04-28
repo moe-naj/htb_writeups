@@ -2,6 +2,14 @@
 
 ![image.png](image.png)
 
+# Table of Contents
+
+- [Context](#context)
+- [Scenario](#scenario)
+- [Questions](#questions)
+  * [Program Hooking and Redirecting to Wrapper](#program-hooking-and-redirecting-to-wrapper)
+- [Forensic Timeline](#forensic-timeline)
+
 # Context
 
 **Lab link**: [https://cyberdefenders.org/blueteam-ctf-challenges/atmii/](https://cyberdefenders.org/blueteam-ctf-challenges/atmii/)
@@ -227,3 +235,6 @@ Q8- Recognizing specific constants can help in understanding command execution. 
 wsprintfA(local_234,"(%d):%s() WFSExecute (WFS_CMD_CDM_DISPENSE) failed with error: %d\n\n",
           0x1b5,"cmd_disp_ex",iVar1);
 ```
+
+# Forensic Timeline
+![Forensic Timeline](forensic_timeline.png)
