@@ -2,6 +2,29 @@
 
 ![image.png](image.png)
 
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Initial Access](#initial-access)
+  * [**Kiosk Breakout via Browser Help Dialog**](#--kiosk-breakout-via-browser-help-dialog--)
+    + [The Attack Chain](#the-attack-chain)
+    + [Why That Specific URL Matters](#why-that-specific-url-matters)
+    + [Defensive Takeaways](#defensive-takeaways)
+- [Execution](#execution)
+  * [**Windows Assigned Access**](#--windows-assigned-access--)
+- [Privilege Escalation](#privilege-escalation)
+  * [**PowerShell Command History Artifact**](#--powershell-command-history-artifact--)
+- [Defense Evasion](#defense-evasion)
+  * [**Windows Recycle Bin Deleted File Metadata and Content**](#--windows-recycle-bin-deleted-file-metadata-and-content--)
+- [Credential Access](#credential-access)
+  * [**Autologon Credentials in Registry**](#--autologon-credentials-in-registry--)
+- [Discovery](#discovery)
+  * [**MFT Resident File Data Recovery**](#--mft-resident-file-data-recovery--)
+- [Persistence](#persistence)
+- [Command and Control](#command-and-control)
+- [Impact](#impact)
+- [Forensic Timeline](#forensic-timeline)
+
 # Context
 
 **Lab link**: [https://cyberdefenders.org/blueteam-ctf-challenges/kioskexpo7/](https://cyberdefenders.org/blueteam-ctf-challenges/kioskexpo7/)
