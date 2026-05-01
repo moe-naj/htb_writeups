@@ -2,6 +2,12 @@
 
 ![image.png](image.png)
 
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Questions](#questions)
+- [Lab Insights](#lab-insights)
+
 # Context
 
 **Lab link**: [https://cyberdefenders.org/blueteam-ctf-challenges/mbuchus/](https://cyberdefenders.org/blueteam-ctf-challenges/mbuchus/)
