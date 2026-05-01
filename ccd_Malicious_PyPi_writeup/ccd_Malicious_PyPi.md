@@ -2,6 +2,14 @@
 
 ![image.png](image.png)
 
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Questions](#questions)
+  * [Correlating Suspicious Activity Temp Artifacts](#correlating-suspicious-activity-temp-artifacts)
+- [Lab Insights](#lab-insights)
+- [Forensic Timeline](#forensic-timeline)
+
 # Context
 
 **Lab link**: [https://cyberdefenders.org/blueteam-ctf-challenges/malicious-pypi/](https://cyberdefenders.org/blueteam-ctf-challenges/malicious-pypi/)
