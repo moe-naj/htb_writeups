@@ -2,6 +2,20 @@
 
 ![image.png](image.png)
 
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Initial Access](#initial-access)
+- [Execution](#execution)
+- [Discovery](#discovery)
+- [Persistence](#persistence)
+  * [Suspicious Use of Trusted Windows Rundll32 Binary](#suspicious-use-of-trusted-windows-rundll32-binary)
+- [Privilege Escalation](#privilege-escalation)
+- [Credential Access](#credential-access)
+- [Lateral Movement](#lateral-movement)
+- [Pre Encryption Operations and Ransomware Deployment](#pre-encryption-operations-and-ransomware-deployment)
+- [Lab Insights](#lab-insights)
+
 # Context
 
 **Lab link**: [https://cyberdefenders.org/blueteam-ctf-challenges/poisoned-pytorch/](https://cyberdefenders.org/blueteam-ctf-challenges/poisoned-pytorch/)
