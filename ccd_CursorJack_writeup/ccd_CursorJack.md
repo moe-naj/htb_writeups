@@ -2,6 +2,21 @@
 
 ![image.png](image.png)
 
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Initial Access](#initial-access)
+  * [Model Context Protocol Primer](#model-context-protocol-primer)
+- [Execution](#execution)
+- [Command and Control](#command-and-control)
+- [Discovery](#discovery)
+- [Collection](#collection)
+- [Credential Access](#credential-access)
+- [Impact](#impact)
+  * [Cryptocurrency Tokens](#cryptocurrency-tokens)
+- [Lab Insights](#lab-insights)
+- [Forensic Timeline](#forensic-timeline)
+
 # Context
 
 Lab link: [https://cyberdefenders.org/blueteam-ctf-challenges/cursorjack/](https://cyberdefenders.org/blueteam-ctf-challenges/cursorjack/)
