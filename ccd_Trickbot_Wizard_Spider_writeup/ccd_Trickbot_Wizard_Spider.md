@@ -2,6 +2,15 @@
 
 ![image.png](image.png)
 
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Questions](#questions)
+- [Lab Insights](#lab-insights)
+    + [Pivot ideas for threat hunting](#pivot-ideas-for-threat-hunting)
+    + [Open questions to validate in IR](#open-questions-to-validate-in-ir)
+- [Forensic Timeline](#forensic-timeline)
+
 # Context
 
 **Lab link**: [https://cyberdefenders.org/blueteam-ctf-challenges/trickbot-wizard-spider/](https://cyberdefenders.org/blueteam-ctf-challenges/trickbot-wizard-spider/)
