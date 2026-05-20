@@ -2,6 +2,15 @@
 
 ![image.png](image.png)
 
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Questions](#questions)
+  * [Generic XWorm Config Decryptor](#generic-xworm-config-decryptor)
+- [Lab Insights](#lab-insights)
+    + [Key takeaways from the sample](#key-takeaways-from-the-sample)
+- [Forensic Timeline](#forensic-timeline)
+
 # Context
 
 **Lab link**: [https://cyberdefenders.org/blueteam-ctf-challenges/xworm/](https://cyberdefenders.org/blueteam-ctf-challenges/xworm/)
