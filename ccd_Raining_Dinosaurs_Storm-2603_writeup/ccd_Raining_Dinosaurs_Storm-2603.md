@@ -1,5 +1,24 @@
 # Raining Dinosaurs - Storm-2603 Lab
 
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Initial Access](#initial-access)
+  * [**CVE Technical Summary**](#--cve-technical-summary--)
+- [**Command and Control**](#--command-and-control--)
+- [**Discovery**](#--discovery--)
+- [Persistence](#persistence)
+- [Lateral Movement](#lateral-movement)
+- [Privilege Escalation](#privilege-escalation)
+- [**Exfiltration**](#--exfiltration--)
+- [**Impact**](#--impact--)
+- [Lab Artifacts](#lab-artifacts)
+    + [Environment](#environment)
+    + [Attacker Infrastructure](#attacker-infrastructure)
+    + [IOCs](#iocs)
+    + [Attack Chain](#attack-chain)
+- [Lab Insights](#lab-insights)
+
 # Context
 
 Lab link: [https://cyberdefenders.org/blueteam-ctf-challenges/raining-dinosaurs-storm-2603/](https://cyberdefenders.org/blueteam-ctf-challenges/raining-dinosaurs-storm-2603/)
