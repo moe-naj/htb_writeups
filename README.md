@@ -24,6 +24,7 @@ This repository serves as a **professional knowledge base** to:
 * **Enterprise Platforms:** HTB (Pro Labs), TryHackMe, and Blue Team Labs Online and other platforms.
 * **Certification Labs:** Hands-on exercises from my certification journey (e.g. OSCP, CCD, eJPT, and others)
 * **Homelab:** Custom-built scenarios focusing on EDR evasion and detection engineering.
+* **Platforms**: CCD = CyberDefenders, HTB = Hack the Box, THM = Try Hack Me
 
 ---
 
