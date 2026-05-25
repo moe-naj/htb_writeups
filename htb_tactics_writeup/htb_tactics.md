@@ -1,5 +1,15 @@
 # Tactics
 
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Questions](#questions)
+- [Flag Walkthrough](#flag-walkthrough)
+  * [Recon](#recon)
+  * [SMB Enumeration](#smb-enumeration)
+  * [Flag Retrieval](#flag-retrieval)
+  * [Lab Insights](#lab-insights)
+
 # Context
 
 Lab link: [https://app.hackthebox.com/machines/Tactics](https://app.hackthebox.com/machines/Tactics)
