@@ -2,6 +2,37 @@
 
 ![image.png](image.png)
 
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Context](#context)
+- [Scenario](#scenario)
+- [Initial Access](#initial-access)
+- [Execution](#execution)
+  * [Abusing Code Build Tools](#abusing-code-build-tools)
+- [Defense Evasion](#defense-evasion)
+  * [Timestomping](#timestomping)
+- [Persistence](#persistence)
+  * [WMI Event Subscription Persistence](#wmi-event-subscription-persistence)
+- [Credential Access](#credential-access)
+  * [Split-Token Logon](#split-token-logon)
+  * [Kerberos Encryption Downgrade as Forgery](#kerberos-encryption-downgrade-as-forgery)
+- [Discovery](#discovery)
+- [Lateral Movement](#lateral-movement)
+- [Command and Control](#command-and-control)
+- [Collection](#collection)
+- [Exfiltration](#exfiltration)
+- [Impact](#impact)
+- [Lab Summary](#lab-summary)
+  * [Environment](#environment)
+  * [Attacker Infrastructure](#attacker-infrastructure)
+  * [IOCs](#iocs)
+    + [Files](#files)
+    + [Hashes](#hashes)
+    + [Accounts and Credentials](#accounts-and-credentials)
+    + [Ransomware](#ransomware)
+  * [Attack Chain](#attack-chain)
+- [Forensic Timeline](#forensic-timeline)
+
 # Context
 
 Lab link: [https://cyberdefenders.org/blueteam-ctf-challenges/stolen-time-hiddentear/](https://cyberdefenders.org/blueteam-ctf-challenges/stolen-time-hiddentear/)
@@ -890,7 +921,7 @@ index=* source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1
 | `C:\\Windows\\Temp\\MammaMia_Marcello.exe` | HiddenTear ransomware (`OriginalFileName`: `Encryptor_v2.exe`) |
 | `C:\\Users\\Public\\npoived.zip` | Staged exfiltration archive (timestomped to 2036-01-01) |
 
-### Hashes (SHA256)
+### Hashes
 
 | File | SHA256 |
 | --- | --- |
@@ -898,7 +929,7 @@ index=* source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1
 | `WakeWordEngine.dll` | `0C1A20B225DAA295C4CFD609884AFAD10C301FF56241500B82B35104240904F1` |
 | `MammaMia_Marcello.exe` | `4A2DCB42B807E589D8CCBCA5CAD4C2B4B7C768CAA86D54FF1864065AFCE0D85B` |
 
-### Accounts & Credentials
+### Accounts and Credentials
 
 | Host | Account | Password | Purpose |
 | --- | --- | --- | --- |
