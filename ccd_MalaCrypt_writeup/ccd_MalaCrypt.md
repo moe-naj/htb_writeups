@@ -1,5 +1,22 @@
 # MalaCrypt Lab
 
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Questions](#questions)
+  * [Windows API Execution Flow](#windows-api-execution-flow)
+  * [Stackstrings](#stackstrings)
+  * [FLIRT in Reverse Engineering](#flirt-in-reverse-engineering)
+- [Lab Insights](#lab-insights)
+  * [Binary Profile](#binary-profile)
+  * [Obfuscation Techniques](#obfuscation-techniques)
+  * [Execution Flow Pattern](#execution-flow-pattern)
+  * [Key Indicators of Compromise](#key-indicators-of-compromise)
+  * [Attacker Intent](#attacker-intent)
+  * [Tool Effectiveness by Analysis Stage](#tool-effectiveness-by-analysis-stage)
+  * [Key Lessons](#key-lessons)
+- [Forensic Timeline](#forensic-timeline)
+
 # Context
 
 Lab link: [https://cyberdefenders.org/blueteam-ctf-challenges/malacrypt/](https://cyberdefenders.org/blueteam-ctf-challenges/malacrypt/)
@@ -355,7 +372,7 @@ function @ 0x14000469C
 6. Memory allocation via `VirtualAlloc` with `PAGE_EXECUTE_READWRITE` (`0x40`)
 7. Shellcode injected and executed via a Windows callback function
 
-## Key Indicators of Compromise (IOCs)
+## Key Indicators of Compromise
 
 | Type | Value |
 | --- | --- |
