@@ -1,6 +1,17 @@
 # Vaccine
 
-![image.png](image.png)
+<p align="center">
+  <img src="image.png" alt="image.png">
+</p>
+
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Tasks](#tasks)
+- [User Flag](#user-flag)
+- [Root Flag](#root-flag)
+- [Lab Insights](#lab-insights)
+- [Attack Timeline](#attack-timeline)
 
 # Context
 
