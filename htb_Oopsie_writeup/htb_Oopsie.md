@@ -2,6 +2,16 @@
 
 ![image.png](image.png)
 
+#Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Tasks](#tasks)
+- [User Flag Walkthrough](#user-flag-walkthrough)
+- [Root Flag Walkthrough](#root-flag-walkthrough)
+- [Linux PATH Binary Hijacking](#linux-path-binary-hijacking)
+- [Lab Insights](#lab-insights)
+- [Attack Timeline](#attack-timeline)
+
 # Context
 
 Lab link: [https://app.hackthebox.com/machines/Oopsie](https://app.hackthebox.com/machines/Oopsie)
