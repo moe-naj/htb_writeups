@@ -1,5 +1,16 @@
 # RoastToRoot Lab
 
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Questions](#questions)
+  * [Encrypted SMB3 and NTLM Credentials](#encrypted-smb3-and-ntlm-credentials)
+  * [LDAP Operations Reference](#ldap-operations-reference)
+  * [Kerberos GSSAPI Privacy](#kerberos-gssapi-privacy)
+  * [Smbexec Execution Traces](#smbexec-execution-traces)
+- [Lab Insights](#lab-insights)
+- [Forensic Timeline](#forensic-timeline)
+
 # Context
 
 Lab link: [https://cyberdefenders.org/blueteam-ctf-challenges/roasttoroot/](https://cyberdefenders.org/blueteam-ctf-challenges/roasttoroot/)
