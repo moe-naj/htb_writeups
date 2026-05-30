@@ -1,6 +1,17 @@
 # Archetype
 
-![image.png](image.png)
+<p align="center">
+  <img src="image.png" alt="image.png">
+</p>
+
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Tasks](#tasks)
+- [User Flag Walkthrough](#user-flag-walkthrough)
+- [Root Flag Walkthrough](#root-flag-walkthrough)
+- [Lab Insights](#lab-insights)
+- [Attack Timeline](#attack-timeline)
 
 # Context
 
