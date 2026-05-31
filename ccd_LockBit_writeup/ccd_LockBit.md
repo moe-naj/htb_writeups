@@ -1,6 +1,32 @@
 # LockBit Lab
 
-![image.png](image.png)
+<p align="center">
+  <img src="image.png" alt="image.png">
+</p>
+
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [DC01](#dc01)
+- [SQLServer](#sqlserver)
+  * [Memory vs Disk Based Execution](#memory-vs-disk-based-execution)
+- [FileServer](#fileserver)
+- [DevPC](#devpc)
+- [Artifacts and IOCs](#artifacts-and-iocs)
+  * [External Infrastructure](#external-infrastructure)
+  * [Internal Hosts](#internal-hosts)
+  * [Malicious Executables](#malicious-executables)
+  * [Malicious Scripts and Tasks](#malicious-scripts-and-tasks)
+  * [Ransom Artifacts](#ransom-artifacts)
+  * [File Hashes](#file-hashes)
+  * [Defender Detections](#defender-detections)
+  * [Registry Modifications](#registry-modifications)
+  * [Key Process IOCs](#key-process-iocs)
+  * [Named Pipes](#named-pipes)
+  * [Compromised Credentials](#compromised-credentials)
+- [Attack Chain](#attack-chain)
+- [Lab Insights](#lab-insights)
+- [Forensic Timeline](#forensic-timeline)
 
 # Context
 
@@ -16,7 +42,7 @@ A medium-sized corporation has experienced a ransomware attack, first identified
 
 ![image.png](image%201.png)
 
-# **Machine: DC01**
+# DC01
 
 **Q1**- Windows Defender flagged a suspicious executable. Can you identify the name of this executable?
 
@@ -77,7 +103,7 @@ Registry Ref   : HKLM\SYSTEM\ControlSet001\Services\Tcpip\Parameters\Interfaces
 
 ![image.png](image%202.png)
 
-# **Machine: SQLServer**
+# SQLServer
 
 **Q4**- What’s the name of the process that had suspicious behavior as detected by Windows Defender?
 
@@ -224,7 +250,7 @@ MITRE ATT&CK:
   T1027.011 - Obfuscated Files or Information: Fileless Storage
 ```
 
-## **Memory vs Disk Based Execution**
+## Memory vs Disk Based Execution
 
 In disk-based execution, a payload is written as a file to the filesystem before being run, making it visible to file-based antivirus scanning, forensic imaging, and file integrity monitoring. Memory-only execution, as demonstrated by the `IEX (New-Object Net.WebClient).DownloadString(...)` cradle in the preceding finding, fetches and executes a script entirely within the PowerShell process's runtime memory. No file touches disk, so there is no file hash to scan, no path to alert on, and no artifact to recover post-incident unless a memory dump is captured at the time of execution. This technique is a staple of post-exploitation frameworks precisely because it sidesteps the majority of endpoint detection that operates on filesystem events rather than in-memory behavior.
 
@@ -357,7 +383,7 @@ Invoke - Command  - ComputerName FileServer  - ScriptBlock {
 
 ![image.png](image%204.png)
 
-# **Machine: FileServer**
+# FileServer
 
 **Q14**- What's the name of the malicious service executable blocked by Windows Defender?
 
@@ -390,7 +416,7 @@ MITRE ATT&CK:
   T1036.005 - Masquerading: Match Legitimate Name or Location
 ```
 
-# **Machine: DevPC**
+# DevPC
 
 **Q15**- What’s the name of the ransomware executable dropped on the machine?
 
@@ -469,7 +495,7 @@ MITRE ATT&CK:
 | ceabe99.exe | C:\Windows\ceabe99.exe | FileServer | CobaltStrike beacon (blocked by AV) |
 | vmware.exe | C:\Windows\Temp\vmware.exe | SQLServer, DevPC | LockBit ransomware + `lsass` dumper (masquerading as VMware) |
 
-## Malicious Scripts & Tasks
+## Malicious Scripts and Tasks
 
 | Name | Path | Description |
 | --- | --- | --- |
