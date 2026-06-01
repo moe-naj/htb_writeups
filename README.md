@@ -7,8 +7,12 @@ A curated collection of technical walkthroughs, investigation reports, and secur
 
 ---
 
-## 📂 Featured Domains
+## 🛡️ Platforms Covered
+* ccd = CyberDefenders
+* htb = Hack The box
+* hh = Hacking Hub
 
+## 📂 Featured Domains
 * **Blue Team Operations:** Incident response, memory forensics, and SIEM log analysis.
 * **Red Team Methodology:** Network exploitation, privilege escalation, and AD security.
 * **Cloud & Infrastructure:** Hardening AWS/Azure environments and container security.
