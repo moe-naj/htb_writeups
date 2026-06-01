@@ -10,6 +10,7 @@ A curated collection of technical walkthroughs, investigation reports, and secur
 ## 🛡️ Platforms Covered
 * ccd = CyberDefenders
 * htb = Hack The box
+* thm = Try Hack Me
 * hh = Hacking Hub
 
 ## 📂 Featured Domains
