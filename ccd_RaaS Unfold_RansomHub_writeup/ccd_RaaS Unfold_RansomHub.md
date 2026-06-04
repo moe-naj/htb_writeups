@@ -1,6 +1,23 @@
 # RaaS Unfold - RansomHub Lab
 
-![image.png](image.png)
+<p align="center">
+  <img src="image.png" alt="image.png">
+</p>
+
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Questions](#questions)
+- [Artifacts](#artifacts)
+  * [Identifiers](#identifiers)
+  * [CVEs](#cves)
+  * [Infrastructure](#infrastructure)
+  * [Tools](#tools)
+  * [Forensic Indicators](#forensic-indicators)
+- [Attack Chain](#attack-chain)
+  * [Text Tree](#text-tree)
+- [Lab Insights](#lab-insights)
+- [Forensic Timeline](#forensic-timeline)
 
 # Context
 
