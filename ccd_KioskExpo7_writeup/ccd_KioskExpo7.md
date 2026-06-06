@@ -11,7 +11,7 @@
     + [Why That Specific URL Matters](#why-that-specific-url-matters)
     + [Defensive Takeaways](#defensive-takeaways)
 - [Execution](#execution)
-  * [**Windows Assigned Access**](#--windows-assigned-access--)
+  * [Windows Assigned Access](#windows-assigned-access)
 - [Privilege Escalation](#privilege-escalation)
   * [**PowerShell Command History Artifact**](#--powershell-command-history-artifact--)
 - [Defense Evasion](#defense-evasion)
