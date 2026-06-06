@@ -6,7 +6,7 @@
 - [Context](#context)
 - [Scenario](#scenario)
 - [Initial Access](#initial-access)
-  * [**Kiosk Breakout via Browser Help Dialog**](#--kiosk-breakout-via-browser-help-dialog--)
+  * [Kiosk Breakout via Browser Help Dialog](#kiosk-breakout-via-browser-help-dialog)
     + [The Attack Chain](#the-attack-chain)
     + [Why That Specific URL Matters](#why-that-specific-url-matters)
     + [Defensive Takeaways](#defensive-takeaways)
