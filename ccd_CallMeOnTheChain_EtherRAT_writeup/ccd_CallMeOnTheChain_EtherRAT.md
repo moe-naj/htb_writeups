@@ -1,6 +1,30 @@
 # CallMeOnTheChain - EtherRAT Lab
 
-![image.png](image.png)
+<p align="center">
+  <img src="image.png" alt="image.png">
+</p>
+
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Initial Access](#initial-access)
+  * [Next JS Server Actions RCE Prototype Pollution](#next-js-server-actions-rce-prototype-pollution)
+- [Execution](#execution)
+  * [Hooking to and Stealing TLS Session Keys](#hooking-to-and-stealing-tls-session-keys)
+- [Defense Evasion](#defense-evasion)
+- [Command and Control](#command-and-control)
+  * [Smart Contracts as C2 Infrastructure](#smart-contracts-as-c2-infrastructure)
+- [Credential Access](#credential-access)
+- [Persistence](#persistence)
+  * [User Space Persistence on Linux](#user-space-persistence-on-linux)
+- [Execution](#execution-1)
+- [Impact](#impact)
+- [Attribution](#attribution)
+- [Artifacts](#artifacts)
+- [Attack Chain](#attack-chain)
+  * [Text Tree](#text-tree)
+- [Lab Insights](#lab-insights)
+- [Forensic Timeline](#forensic-timeline)
 
 # Context
 
