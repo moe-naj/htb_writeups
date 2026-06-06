@@ -15,7 +15,7 @@
 - [Privilege Escalation](#privilege-escalation)
   * [PowerShell Command History Artifact](#powershell-command-history-artifact)
 - [Defense Evasion](#defense-evasion)
-  * [Windows Recycle Bin Deleted File Metadata and Content**](#windows-recycle-bin-deleted-file-metadata-and-content)
+  * [Windows Recycle Bin Deleted File Metadata and Content](#windows-recycle-bin-deleted-file-metadata-and-content)
 - [Credential Access](#credential-access)
   * [Autologon Credentials in Registry](#autologon-credentials-in-registry)
 - [Discovery](#discovery)
