@@ -1,6 +1,26 @@
 # Recruiter - Hanoi Op Lab
 
-![image.png](image.png)
+<p align="center">
+  <img src="image.png" alt="image.png">
+</p>
+
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+- [Initial Access](#initial-access)
+  * [NTFS SI vs FN Timestamp Divergence](#ntfs-si-vs-fn-timestamp-divergence)
+- [Execution](#execution)
+  * [NTFS User Journal Sequence Number Correlation](#ntfs-user-journal-sequence-number-correlation)
+- [Credential Access](#credential-access)
+  * [Abuse of Semantically Scoped Windows Privileges](#abuse-of-semantically-scoped-windows-privileges)
+- [Persistence](#persistence)
+  * [Abuse of Windows Service Host via Service DLL Hijack](#abuse-of-windows-service-host-via-service-dll-hijack)
+- [Exfiltration](#exfiltration)
+- [Artifacts](#artifacts)
+- [Attack Chain](#attack-chain)
+  * [Text Tree](#text-tree)
+- [Lab Insights](#lab-insights)
+- [Forensic Timeline](#forensic-timeline)
 
 # Context
 
@@ -309,7 +329,7 @@ Its appearance here, on a standard HR workstation account mid-intrusion, is a st
 </Event>
 ```
 
-## **Abuse of Semantically Scoped Windows Privileges**
+## Abuse of Semantically Scoped Windows Privileges
 
 **Pattern Summary**
 
@@ -413,7 +433,7 @@ param3:     auto start    (new -- Automatic)
 param4:     W32Time
 ```
 
-## **Abuse of Windows Service Host via Service DLL Hijack**
+## Abuse of Windows Service Host via Service DLL Hijack
 
 An attacker with registry write access replaces the `ServiceDll` value of a legitimate shared-process Windows service with a path to a malicious DLL. At next service start or system boot, `svchost.exe` loads the attacker's DLL into its process space and calls its `ServiceMain` export, executing the payload entirely within a trusted, signed Microsoft process.
 
