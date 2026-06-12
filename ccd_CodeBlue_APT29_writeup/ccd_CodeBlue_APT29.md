@@ -1,6 +1,30 @@
 # Code Blue - APT29 Lab
 
-![image.png](image.png)
+<p align="center">
+  <img src="image.png" alt="image.png">
+</p>
+
+# Table of Contents
+- [Context](#context)
+- [Scenario](#scenario)
+  * [Sentinel Tables](#sentinel-tables)
+- [Initial Access](#initial-access)
+- [Post Compromise Token Abuse and Initial Discovery](#post-compromise-token-abuse-and-initial-discovery)
+  * [OAuth Token Families FOCI](#oauth-token-families-foci)
+- [Mailbox Exploitation and Credential Discovery](#mailbox-exploitation-and-credential-discovery)
+- [Privilege Escalation and Lateral Movement](#privilege-escalation-and-lateral-movement)
+- [High-Value Asset Discovery](#high-value-asset-discovery)
+- [Federation Compromise](#federation-compromise)
+  * [Silver SAML Attack](#silver-saml-attack)
+- [Data Exfiltration Collaboration Platform](#data-exfiltration-collaboration-platform)
+- [Data Exfiltration Cloud and Hybrid Infrastructure](#data-exfiltration-cloud-and-hybrid-infrastructure)
+- [Persistence Application Backdoors](#persistence-application-backdoors)
+- [Threat Intelligence and Remediation](#threat-intelligence-and-remediation)
+- [Attack Chain](#attack-chain)
+  * [Text Tree](#text-tree)
+- [Artifacts](#artifacts)
+- [Lab Insights](#lab-insights)
+- [Forensic Timeline](#forensic-timeline)
 
 # Context
 
