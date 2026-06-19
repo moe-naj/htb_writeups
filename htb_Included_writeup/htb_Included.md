@@ -1,7 +1,7 @@
 # Included
 
 <p align="center">
-  <img src="image.png" alt="image.png">
+  <img src="image.png" alt="image.png" width="300">
 </p>
 
 # Table of Contents
