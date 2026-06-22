@@ -1,6 +1,8 @@
 # KioskExpo7 Lab
 
-![image.png](image.png)
+<p align="center">
+  <img src="image.png" alt="image.png">
+</p>
 
 # Table of Contents
 - [Context](#context)
