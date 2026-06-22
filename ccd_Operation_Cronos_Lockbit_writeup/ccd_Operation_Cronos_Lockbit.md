@@ -35,7 +35,7 @@ You are a cybercrime investigator, and this is your starting point. Your task is
 
 Answer: LockBit
 
-Reason: A SHA-256 hash recovered from the compromised environment, `9feed0c7fa8c1d32390e1c168051267df61f11b048ec62aa5b8e66f60e8083af`, was submitted to VirusTotal, where 52 of 55 security vendors flagged the file as malicious. VirusTotal's popular threat label identifies the sample as `ransomware.lockbit/encoder`, and the platform's family labels list both `lockbit` and `encoder`. Threat categories assigned to the file include `ransomware` and `trojan`. Given the high vendor consensus and consistent family labeling, the ransomware encoder is confirmed to belong to the LockBit family.
+Reason: A SHA-256 hash recovered from the compromised environment was submitted to VirusTotal, where 52 of 55 security vendors flagged the file as malicious. VirusTotal's popular threat label identifies the sample as `ransomware.lockbit/encoder`, and the platform's family labels list both `lockbit` and `encoder`. Threat categories assigned to the file include `ransomware` and `trojan`. Given the high vendor consensus and consistent family labeling, the ransomware encoder is confirmed to belong to the LockBit family.
 
 ![image.png](image%201.png)
 
