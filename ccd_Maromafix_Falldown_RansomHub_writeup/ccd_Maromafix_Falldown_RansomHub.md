@@ -31,9 +31,9 @@
 
 Lab link: [https://cyberdefenders.org/blueteam-ctf-challenges/maromafix-falldown-ransomhub/](https://cyberdefenders.org/blueteam-ctf-challenges/maromafix-falldown-ransomhub/)
 
-Suggested tools: RegRipper, , DB Browser for SQLite, CyberChef, dnSpy, ELK, Timeline Explorer, MFTECmd, Detect It Easy, `defender-dump.py`, CobaltStrikeParser
+Suggested tools: RegRipper, DB Browser for SQLite, CyberChef, dnSpy, ELK, Timeline Explorer, MFTECmd, Detect It Easy, `defender-dump.py`, CobaltStrikeParser
 
-Tactics: Initial Access, , Execution, Persistence, Privilege Escalation, Defense Evasion, Credential Access, Discovery, Lateral Movement, Impact
+Tactics: Initial Access, Execution, Persistence, Privilege Escalation, Defense Evasion, Credential Access, Discovery, Lateral Movement, Impact
 
 # Scenario
 
