@@ -1,12 +1,12 @@
 # Yara101 Lab
 
-# Context
-
 # Table of Contents
 - [Context](#context)
 - [Scenario](#scenario)
 - [Questions](#questions)
 - [Lab Insights](#lab-insights)
+
+# Context
 
 Lab link: [https://cyberdefenders.org/blueteam-ctf-challenges/yara101/](https://cyberdefenders.org/blueteam-ctf-challenges/yara101/)
 
