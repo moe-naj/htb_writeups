@@ -67,7 +67,7 @@ Reason: The same toast notification recovered from `wpndatabase.db`, timestamped
 
 Q3- What domain did the attacker use to download the second stage of the malware?
 
-Answer: `masherofmasters.cyou`
+Answer: `masherofmasters[.]cyou`
 
 Reason: Analysis of the LNK file `templet.lnk`, recovered from `Users\OMEN\Downloads\project templet test\` and matching the archive delivered via Telegram, revealed a `CommandLineArguments` field invoking `powershell.exe` with `-ExecutionPolicy Unrestricted` alongside a heavily obfuscated script. The script contained a custom string-manipulation function designed to reconstruct a URL from a scrambled character string. Evaluating only the deobfuscation logic, not the full script, against the embedded value `aht1.sen/hi/coucys.erstmaofershma//s:tpht` resolved to `hxxps://masherofmasters[.]cyou/chin/se1.hta`, confirming the attacker's second-stage payload was staged on the domain `masherofmasters[.]cyou`.
 
