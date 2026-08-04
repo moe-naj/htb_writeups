@@ -94,6 +94,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [YARA 101](./ccd_Yara101_writeup/) | `ccd_Yara101_writeup` |
 | [YARA Wizards](./ccd_YARA_Wizards_writeup/) | `ccd_YARA_Wizards_writeup` |
 | [ElasticCase](./ccd_ElasticCase_writeup) | `ccd_ElasticCase_writeup` |
+| [HawkEye](./ccd_HawkEye_writeup) | `ccd_HawkEye_writeup`|
 
 ---
 
