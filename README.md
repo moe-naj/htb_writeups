@@ -52,6 +52,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [ElasticCase](./ccd_ElasticCase_writeup) | `ccd_ElasticCase_writeup` |
 | [Fork Bomb / TeamPCP](./ccd_fork_bomb_TeamPCP_writeup/) | `ccd_fork_bomb_TeamPCP_writeup` |
 | [Formbook](./ccd_Formbook_writeup/) | `ccd_Formbook_writeup` |
+| [GetPDF](./ccd_GetPDF_writeup/) | `ccd_GetPDF_writeup` |
 | [GhostConnect / TA583](./ccd_GhostConnect%20-%20TA583_writeup/) | `ccd_GhostConnect - TA583_writeup` |
 | [HawkEye](./ccd_HawkEye_writeup) | `ccd_HawkEye_writeup`|
 | [IcedID2 / GOLD CABIN](./ccd_IcedID2_GOLD_CABIN/) | `ccd_IcedID2_GOLD_CABIN` |
