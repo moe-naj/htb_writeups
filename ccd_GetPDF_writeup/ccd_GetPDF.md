@@ -5,7 +5,7 @@
 - [Scenario](#scenario)
 - [Questions](#questions)
   * [Object 5 JS Deobfuscation and Analysis](#object-5-js-deobfuscation-and-analysis)
-  * [**Simple Python Percent Replacement Script**](#--simple-python-percent-replacement-script--)
+  * [Simple Python Percent Replacement Script](#simple-python-percent-replacement-script)
   * [Shellcode Decoder and Extractor Script](#shellcode-decoder-and-extractor-script)
 - [Attack Chain](#attack-chain)
   * [Attack Tree](#attack-tree)
@@ -324,7 +324,7 @@ if (app.plugIns.length >= 2) {
 }
 ```
 
-## **Simple Python Percent Replacement Script**
+## Simple Python Percent Replacement Script
 
 ```python
 import urllib.parse
