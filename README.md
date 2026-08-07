@@ -105,8 +105,8 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | Lab | Folder |
 |-----|--------|
 | [Archetype](./htb_Archetype_writeup/) | `htb_Archetype_writeup` |
-| [Base](./htb_Cohort_writeup/) | `htb_Cohort_writeup` |
-| [Cohort](./htb_Base_writeup/) | `htb_Base_writeup` |
+| [Base](./htb_Base_writeup/) | `htb_Base_writeup` |
+| [Cohort](./htb_Cohort_writeup/) | `htb_Cohort_writeup` |
 | [Included](./htb_Included_writeup/) | `htb_Included_writeup` |
 | [Markup](./htb_Markup_writeup/) | `htb_Markup_writeup` |
 | [Oopsie](./htb_Oopsie_writeup/) | `htb_Oopsie_writeup` |
