@@ -94,6 +94,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [Tax Day / BYOVD](./ccd_Tax_Day_BYOVD_writeup/) | `ccd_Tax_Day_BYOVD_writeup` |
 | [TeleStealer](./ccd_TeleStealer_writeup/) | `ccd_TeleStealer_writeup` |
 | [Trickbot / Wizard Spider](./ccd_Trickbot_Wizard_Spider_writeup/) | `ccd_Trickbot_Wizard_Spider_writeup` |
+| [Trident](./ccd_Trident_writeup/) | `ccd_Trident_writeup` |
 | [WebLogic](./ccd_WebLogic_writeup/) | `ccd_WebLogic_writeup` |
 | [XWorm](./ccd_XWorm_writeup/) | `ccd_XWorm_writeup` |
 | [YARA 101](./ccd_Yara101_writeup/) | `ccd_Yara101_writeup` |
