@@ -61,6 +61,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [KioskExpo7](./ccd_KioskExpo7_writeup/) | `ccd_KioskExpo7_writeup` |
 | [Kraken Keylogger](./ccd_KrakenKeylogger_writeup/) | `ccd_KrakenKeylogger_writeup` |
 | [LockBit](./ccd_LockBit_writeup/) | `ccd_LockBit_writeup` |
+| [l337 S4uc3](./ccd_l337-S4uc3_writeup/) | `ccd_l337-S4uc3_writeup` |
 | [LummaStealer / AngryLikho](./ccd_LummaStealer_AngryLikho_writeup/) | `ccd_LummaStealer_AngryLikho_writeup` |
 | [MalaCrypt](./ccd_MalaCrypt_writeup/) | `ccd_MalaCrypt_writeup` |
 | [Malicious PyPI](./ccd_Malicious_PyPi_writeup/) | `ccd_Malicious_PyPi_writeup` |
