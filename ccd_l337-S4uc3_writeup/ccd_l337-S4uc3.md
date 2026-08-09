@@ -387,7 +387,7 @@ Q21- Memory: What is the md5hash of the `receive.1105.3` file out of the per-pro
 
 Answer: `184c8748cfcfe8c0e24d7d80cac6e9bd`
 
-Reason: 
+Reason: The MD5 hash of the `receive.1105.3` file, extracted from the per-process packet queue of `PID 1105` via `linux_pkt_queues` against `webserver.vmss`, is `184c8748cfcfe8c0e24d7d80cac6e9bd`, independently verified via `md5sum`. This file represents `32` bytes of data that were still sitting unread in `PID 1105`'s socket receive buffer at the moment the memory snapshot was acquired, recovered from `/home/kali/ctf_stuff/defsec/ccd_l337-S4uc3/packet_queue/receive.1105.3`.
 
 ```bash
 $ python2.7 /opt/volatility2/vol.py --plugins=/tmp/claude-1000/-home-kali-ctf-stuff-defsec/90d66997-73c8-4b7a-b2e1-177d336426b4/scratchpad/vol2_plugins --profile=LinuxUbuntu1004x64x64 -f /home/kali/ctf_stuff/defsec/ccd_l337-S4uc3/Ubuntu10-4/webserver.vmss help linux_pkt_queues -D packet_queue 
