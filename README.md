@@ -51,6 +51,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [DetectLog4j](./ccd_DetectLog4j_writeup/) | `ccd_DetectLog4j_writeup` |
 | [Dynamic Escalate](./ccd_dynamic_escalate_writeup/) | `ccd_dynamic_escalate_writeup` |
 | [ElasticCase](./ccd_ElasticCase_writeup) | `ccd_ElasticCase_writeup` |
+| [Exfiltrated](./ccd_Exfiltrated_Writeup) | `ccd_Exfiltrated_Writeup` |
 | [Fork Bomb / TeamPCP](./ccd_fork_bomb_TeamPCP_writeup/) | `ccd_fork_bomb_TeamPCP_writeup` |
 | [Formbook](./ccd_Formbook_writeup/) | `ccd_Formbook_writeup` |
 | [GetPDF](./ccd_GetPDF_writeup/) | `ccd_GetPDF_writeup` |
