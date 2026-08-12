@@ -74,6 +74,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [MrRobot](./ccd_MrRobot_writeup/) | `ccd_MrRobot_writeup` |
 | [MSI](./ccd_MSI_writeup/) | `ccd_MSI_writeup` |
 | [Nitrogen](./ccd_nitrogen_writeup/) | `ccd_nitrogen_writeup` |
+| [Obfuscated](./ccd_Obfuscated_writeup/) | `ccd_Obfuscated_writeup` |
 | [Operation Cronos / LockBit](./ccd_Operation_Cronos_Lockbit_writeup/) | `ccd_Operation_Cronos_Lockbit_writeup` |
 | [Poisoned PyTorch](./ccd_Poisoned_PyTorch_writeup/) | `ccd_Poisoned_PyTorch_writeup` |
 | [RaaS Unfold / RansomHub](./ccd_RaaS%20Unfold_RansomHub_writeup/) | `ccd_RaaS Unfold_RansomHub_writeup` |
