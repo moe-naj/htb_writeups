@@ -56,6 +56,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [Formbook](./ccd_Formbook_writeup/) | `ccd_Formbook_writeup` |
 | [GetPDF](./ccd_GetPDF_writeup/) | `ccd_GetPDF_writeup` |
 | [GhostConnect / TA583](./ccd_GhostConnect%20-%20TA583_writeup/) | `ccd_GhostConnect - TA583_writeup` |
+| [Hacked](./ccd_Hacked_writeup) | `ccd_Hacked_writeup`|
 | [HawkEye](./ccd_HawkEye_writeup) | `ccd_HawkEye_writeup`|
 | [IcedID2 / GOLD CABIN](./ccd_IcedID2_GOLD_CABIN/) | `ccd_IcedID2_GOLD_CABIN` |
 | [Kerberoasted](./ccd_Kerberoasted_writeup/) | `ccd_Kerberoasted_writeup` |
