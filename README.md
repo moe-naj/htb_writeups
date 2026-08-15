@@ -36,6 +36,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | Lab | Folder |
 |-----|--------|
 | [AbuSESer / traufflenet](./ccd_AbuSESer_traufflenet_writeup/) | `ccd_AbuSESer_traufflenet_writeup` |
+| [AfricanFalls](./ccd_AfricanFalls_writeup/) | `ccd_AfricanFalls_writeup` |
 | [APT35](./ccd_APT35_writeup/) | `ccd_APT35_writeup` |
 | [ATMii](./ccd_ATMii_writeup/) | `ccd_ATMii_writeup` |
 | [AzurePot](./ccd_AzurePot_writeup/) | `ccd_AzurePot_writeup` |
