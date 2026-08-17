@@ -50,6 +50,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [ContainerBreak / Rootkit Trail](./ccd_ContainerBreak_Rootkit_Trail_writeup/) | `ccd_ContainerBreak_Rootkit_Trail_writeup` |
 | [CursorJack](./ccd_CursorJack_writeup/) | `ccd_CursorJack_writeup` |
 | [DetectLog4j](./ccd_DetectLog4j_writeup/) | `ccd_DetectLog4j_writeup` |
+| [DumpMe](./ccd_DumpMe_writeup/) | `ccd_DumpMe_writeup` |
 | [Dynamic Escalate](./ccd_dynamic_escalate_writeup/) | `ccd_dynamic_escalate_writeup` |
 | [ElasticCase](./ccd_ElasticCase_writeup) | `ccd_ElasticCase_writeup` |
 | [Exfiltrated](./ccd_Exfiltrated_Writeup) | `ccd_Exfiltrated_Writeup` |
