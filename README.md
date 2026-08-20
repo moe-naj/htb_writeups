@@ -81,6 +81,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [Obfuscated](./ccd_Obfuscated_writeup/) | `ccd_Obfuscated_writeup` |
 | [Operation Cronos / LockBit](./ccd_Operation_Cronos_Lockbit_writeup/) | `ccd_Operation_Cronos_Lockbit_writeup` |
 | [PacketMaze](./ccd_PacketMaze_writeup/) | `ccd_PacketMaze_writeup` |
+| [Phishy](./ccd_Phishy_writeup/) | `ccd_Phishy_writeup` |
 | [Poisoned PyTorch](./ccd_Poisoned_PyTorch_writeup/) | `ccd_Poisoned_PyTorch_writeup` |
 | [RaaS Unfold / RansomHub](./ccd_RaaS%20Unfold_RansomHub_writeup/) | `ccd_RaaS Unfold_RansomHub_writeup` |
 | [Raining Dinosaurs / Storm-2603](./ccd_Raining_Dinosaurs_Storm-2603_writeup/) | `ccd_Raining_Dinosaurs_Storm-2603_writeup` |
