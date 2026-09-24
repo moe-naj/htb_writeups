@@ -80,6 +80,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [LummaStealer / AngryLikho](./ccd_LummaStealer_AngryLikho_writeup/) | `ccd_LummaStealer_AngryLikho_writeup` |
 | [MalaCrypt](./ccd_MalaCrypt_writeup/) | `ccd_MalaCrypt_writeup` |
 | [Malicious PyPI](./ccd_Malicious_PyPi_writeup/) | `ccd_Malicious_PyPi_writeup` |
+| [Malware Traffic Analysis 6](./ccd_malware_traffic_analysis_6_writeup/) | `ccd_malware_traffic_analysis_6_writeup` |
 | [Maranhão](./ccd_maranhao_writeup/) | `ccd_maranhao_writeup` |
 | [MarkShell / TA577](./ccd_MarkShell_TA577_writeup/) | `ccd_MarkShell_TA577_writeup` |
 | [Maromafix / Falldown / RansomHub](./ccd_Maromafix_Falldown_RansomHub_writeup/) | `ccd_Maromafix_Falldown_RansomHub_writeup` |
