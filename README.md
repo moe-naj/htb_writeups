@@ -41,6 +41,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [ATMii](./ccd_ATMii_writeup/) | `ccd_ATMii_writeup` |
 | [AzurePot](./ccd_AzurePot_writeup/) | `ccd_AzurePot_writeup` |
 | [BlueSky Ransomware](./ccd_BlueSky_Ransomware_writeup/) | `ccd_BlueSky_Ransomware_writeup` |
+| [Boss Of The SOC v1 Lab](./ccd_Boss_Of_The_SOC_v1_writeup/) | `ccd_Boss_Of_The_SOC_v1_writeup` |
 | [CallMeOnTheChain / EtherRAT](./ccd_CallMeOnTheChain_EtherRAT_writeup/) | `ccd_CallMeOnTheChain_EtherRAT_writeup` |
 | [ClickFix / VodkaStealer](./ccd_ClickFix_VodkaStealer_writeup/) | `ccd_ClickFix_VodkaStealer_writeup` |
 | [CodeBlue / APT29](./ccd_CodeBlue_APT29_writeup/) | `ccd_CodeBlue_APT29_writeup` |
