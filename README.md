@@ -112,6 +112,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [Spotlight](./ccd_Spotlight_writeup/) | `ccd_Spotlight_writeup` |
 | [Stolen Time / HiddenTear](./ccd_Stolen_Time_HiddenTear_writeup/) | `ccd_Stolen_Time_HiddenTear_writeup` |
 | [Sysinternals](./ccd_Sysinternals_writeup/) | `ccd_Sysinternals_writeup` |
+| [T1059-007](./ccd_T1059_007_writeup/) | `ccd_T1059_007_writeup` |
 | [T1197](./ccd_T1197_writeup/) | `ccd_T1197_writeup` |
 | [T1547](./ccd_T1547_writeup/) | `ccd_T1547_writeup` |
 | [Tax Day / BYOVD](./ccd_Tax_Day_BYOVD_writeup/) | `ccd_Tax_Day_BYOVD_writeup` |
