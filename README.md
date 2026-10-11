@@ -124,6 +124,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [WireDive](./ccd_WireDive_writeup/) | `ccd_WireDive_writeup` |
 | [XLM Macros](./ccd_XLM_Macros_writeup/) | `ccd_XLM_Macros_writeup` |
 | [XWorm](./ccd_XWorm_writeup/) | `ccd_XWorm_writeup` |
+| [XZBackDoor](./ccd_XZBackDoor_writeup/) | `ccd_XZBackDoor_writeup` |
 | [YARA 101](./ccd_Yara101_writeup/) | `ccd_Yara101_writeup` |
 | [YARA Wizards](./ccd_YARA_Wizards_writeup/) | `ccd_YARA_Wizards_writeup` |
 
