@@ -111,6 +111,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [Shadow Token Symphony / APT29](./ccd_Shadow_Token_Symphony_APT29_writeup/) | `ccd_Shadow_Token_Symphony_APT29_writeup` |
 | [SolarDisruption](./ccd_SolarDisruption_writeup/) | `ccd_SolarDisruption_writeup` |
 | [Spotlight](./ccd_Spotlight_writeup/) | `ccd_Spotlight_writeup` |
+| [SpottedInTheWild](./ccd_SpottedInTheWild_writeup/) | `ccd_SpottedInTheWild_writeup` |
 | [Stolen Time / HiddenTear](./ccd_Stolen_Time_HiddenTear_writeup/) | `ccd_Stolen_Time_HiddenTear_writeup` |
 | [Sysinternals](./ccd_Sysinternals_writeup/) | `ccd_Sysinternals_writeup` |
 | [T1059-007](./ccd_T1059_007_writeup/) | `ccd_T1059_007_writeup` |
