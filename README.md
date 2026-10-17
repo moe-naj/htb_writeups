@@ -130,6 +130,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [XZBackDoor](./ccd_XZBackDoor_writeup/) | `ccd_XZBackDoor_writeup` |
 | [YARA 101](./ccd_Yara101_writeup/) | `ccd_Yara101_writeup` |
 | [YARA Wizards](./ccd_YARA_Wizards_writeup/) | `ccd_YARA_Wizards_writeup` |
+| [Zerologon](./ccd_Zerologon_writeup/) | `ccd_Zerologon_writeup` |
 
 ---
 
