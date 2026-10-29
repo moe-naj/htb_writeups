@@ -98,6 +98,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [Phishy](./ccd_Phishy_writeup/) | `ccd_Phishy_writeup` |
 | [Poisoned PyTorch](./ccd_Poisoned_PyTorch_writeup/) | `ccd_Poisoned_PyTorch_writeup` |
 | [ProPDF](./ccd_ProPDF_writeup/) | `ccd_ProPDF_writeup` |
+| [ProxyShell](./ccd_ProxyShell_writeup/) | `ccd_ProxyShell_writeup` |
 | [RaaS Unfold / RansomHub](./ccd_RaaS%20Unfold_RansomHub_writeup/) | `ccd_RaaS Unfold_RansomHub_writeup` |
 | [Raining Dinosaurs / Storm-2603](./ccd_Raining_Dinosaurs_Storm-2603_writeup/) | `ccd_Raining_Dinosaurs_Storm-2603_writeup` |
 | [RansomedTrust / Lynx](./ccd_RansomedTrust_Lynx_writeup/) | `ccd_RansomedTrust_Lynx_writeup` |
