@@ -145,6 +145,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [Cap](./htb_Cap_writeup/) | `htb_Cap_writeup` |
 | [Cohort](./htb_Cohort_writeup/) | `htb_Cohort_writeup` |
 | [Included](./htb_Included_writeup/) | `htb_Included_writeup` |
+| [Legacy](./htb_Legacy_writuep/) | `htb_Legacy_writuep` |
 | [Markup](./htb_Markup_writeup/) | `htb_Markup_writeup` |
 | [Oopsie](./htb_Oopsie_writeup/) | `htb_Oopsie_writeup` |
 | [Pennyworth](./htb_Pennyworth_writeup/) | `htb_Pennyworth_writeup` |
