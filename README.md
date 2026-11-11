@@ -151,6 +151,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [Lockpick](./htb_Lockpick_writeup/) | `htb_Lockpick_writeup` |
 | [Markup](./htb_Markup_writeup/) | `htb_Markup_writeup` |
 | [Oopsie](./htb_Oopsie_writeup/) | `htb_Oopsie_writeup` |
+| [Optimum](./htb_Optimum_writeup/) | `htb_Optimum_writeup` |
 | [Pennyworth](./htb_Pennyworth_writeup/) | `htb_Pennyworth_writeup` |
 | [Popcorn](./htb_Popcorn_writeup/) | `htb_Popcorn_writeup` |
 | [Tactics](./htb_tactics_writeup/) | `htb_tactics_writeup` |
