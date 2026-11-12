@@ -142,6 +142,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 |-----|--------|
 | [Archetype](./htb_Archetype_writeup/) | `htb_Archetype_writeup` |
 | [Base](./htb_Base_writeup/) | `htb_Base_writeup` |
+| [Bastard](./htb_Bastard_writeup/) | `htb_Bastard_writeup` |
 | [Beep](./htb_Beep_writeup/) | `htb_Beep_writeup` |
 | [Cap](./htb_Cap_writeup/) | `htb_Cap_writeup` |
 | [Cohort](./htb_Cohort_writeup/) | `htb_Cohort_writeup` |
