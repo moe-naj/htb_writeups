@@ -157,6 +157,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [Pennyworth](./htb_Pennyworth_writeup/) | `htb_Pennyworth_writeup` |
 | [Popcorn](./htb_Popcorn_writeup/) | `htb_Popcorn_writeup` |
 | [Tactics](./htb_tactics_writeup/) | `htb_tactics_writeup` |
+| [Tenten](./htb_Tenten_writeup/) | `htb_Tenten_writeup` |
 | [Unified](./htb_Unified_writeup/) | `htb_Unified_writeup` |
 | [Vaccine](./htb_vaccine_writeup/) | `htb_vaccine_writeup` |
 
