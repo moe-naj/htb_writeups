@@ -291,7 +291,7 @@ uid=0(root) gid=0(root) groups=0(root)
 ```mermaid
 flowchart TD
     A[Kali attacker box] --> B[cronos.htb]
-    B --> C[admin.cronos.htb session]
+    B --> C[admin.cronos.htb]
     C --> D[www-data shell]
     D --> E[user.txt]
     D --> F[root shell]
@@ -311,7 +311,7 @@ flowchart TD
 
     style A fill:#1e3a5f,stroke:#4a6fa5,color:#fff
     style B fill:#1e3a5f,stroke:#4a6fa5,color:#fff
-    style C fill:#2d6a4f,stroke:#40916c,color:#fff
+    style C fill:#1e3a5f,stroke:#4a6fa5,color:#fff
     style D fill:#2d6a4f,stroke:#40916c,color:#fff
     style E fill:#2d6a4f,stroke:#40916c,color:#fff
     style F fill:#2d6a4f,stroke:#40916c,color:#fff
