@@ -149,6 +149,7 @@ Folder paths are stable. Prefer this index over scrolling the raw file tree.
 | [Cohort](./htb_Cohort_writeup/) | `htb_Cohort_writeup` |
 | [Cronos](./htb_Cronos_writeup/) | `htb_Cronos_writeup` |
 | [Devel](./htb_Devel_writeup/) | `htb_Devel_writeup` |
+| [Granny](./htb_Granny_writeup/) | `htb_Granny_writeup` |
 | [Included](./htb_Included_writeup/) | `htb_Included_writeup` |
 | [Legacy](./htb_Legacy_writuep/) | `htb_Legacy_writuep` |
 | [Lockpick](./htb_Lockpick_writeup/) | `htb_Lockpick_writeup` |
